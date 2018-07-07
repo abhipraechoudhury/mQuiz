@@ -1,0 +1,7 @@
+Thread t = new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//                profilePic.setImageBitmap(Util.getBitmapFromURL("http://static.adzerk.net/Advertisers/f653a6624a8449879729ede16daa7047.png"));
+//            }
+//        });
+//        t.start();

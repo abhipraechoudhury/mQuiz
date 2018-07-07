@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            >
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/add_student" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="165dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="35dp"
+                    android:background="#f3f3f3"
+                    android:hint="First Name"
+                    android:paddingLeft="5dp"
+                    />
+
+                <EditText
+                    android:layout_width="165dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:background="#f3f3f3"
+                    android:hint="Last Name"
+                    android:paddingLeft="5dp"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f3f3f3"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp" />
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f3f3f3"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f3f3f3"
+                android:hint="Renter Password"
+                android:inputType="textPassword"
+                android:paddingLeft="5dp" />
+
+            <Button
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="#13b586"
+                android:text="submit"
+                android:textColor="#fff"
+                android:textSize="13dp" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/scrollView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/background">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical"
+
+                    >
+                    <EditText
+                        android:layout_width="165dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:background="#f3f3f3"
+                        android:textAlignment="center"
+                        android:hint="TIME:"
+                        android:paddingLeft="5dp"
+
+                        android:id="@+id/time" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter Topic: "
+                        android:textSize="20dp"
+                        android:layout_marginTop="20dp"
+
+                        />
+                    <EditText
+                        android:layout_width="325dp"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="#f3f3f3"
+                        android:layout_marginTop="20dp"
+                        android:textAlignment="center"
+                        android:hint="TOPIC:"
+                        android:paddingLeft="5dp"
+                        android:id="@+id/name" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Description (optional):  "
+                        android:textSize="20dp"
+                        android:layout_marginTop="20dp"
+
+                        />
+                    <EditText
+                        android:layout_width="325dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="#f3f3f3"
+                        android:layout_marginTop="20dp"
+                        android:textAlignment="center"
+                        android:hint="ABOUT:"
+                        android:paddingLeft="5dp"
+                        android:id="@+id/description" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Number of Questions:  "
+                        android:textSize="20dp"
+                        android:layout_marginTop="20dp"
+
+                        />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                    <EditText
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="#f3f3f3"
+                        android:layout_marginTop="20dp"
+                        android:textAlignment="center"
+
+                        android:paddingLeft="5dp"
+                        android:id="@+id/noq" />
+                        <Button
+                            android:layout_width="120dp"
+                            android:layout_height="60dp"
+                            android:text="NEXT"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="130dp"
+                            android:textSize="20dp"
+                            android:onClick="Question_1"
+                            android:id="@+id/next" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+
+
+</LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+            </ScrollView>
+        </LinearLayout>
+
+

@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:2:1-53:12
+	package
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:13:22-64
+application
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:16:5-51:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+	android:label
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:19:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:20:9-35
+	android:allowBackup
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:18:9-43
+	android:theme
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:21:9-40
+activity#online.mquiz.Student.SplashActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:22:19-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:26:27-74
+activity#online.mquiz.LoginActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:29:9-60
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:29:19-48
+activity#online.mquiz.Student.MainActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:30:9-67
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:30:19-55
+activity#online.mquiz.Student.ProfileActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:31:9-70
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:31:19-58
+activity#online.mquiz.Student.EditProfileActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:32:9-74
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:32:19-62
+activity#online.mquiz.Student.QuizActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:33:9-67
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:33:19-55
+activity#online.mquiz.Student.AvailableQuizActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:34:9-76
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:34:19-64
+activity#online.mquiz.Student.ArchiveActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:35:9-70
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:35:19-58
+activity#online.mquiz.Student.AttemptQuizActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:36:9-74
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:36:19-62
+activity#online.mquiz.Student.AttemptQuestionActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:37:9-78
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:37:19-66
+activity#online.mquiz.Student.SubmitPageActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:38:9-73
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:38:19-61
+activity#online.mquiz.Admin.PreviewActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:39:9-68
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:39:19-56
+activity#online.mquiz.Admin.AddStudent
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:40:9-63
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:40:19-51
+activity#online.mquiz.Admin.AdminHomeActivity
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:41:9-70
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:41:19-58
+activity#online.mquiz.Admin.CreateQuiz
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:42:9-63
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:42:19-51
+activity#online.mquiz.Admin.Question_1
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:43:9-63
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:43:19-51
+activity#online.mquiz.Admin.Question_last
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:44:9-66
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:44:19-54
+activity#online.mquiz.Admin.QuizAdmin
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:45:9-62
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:45:19-50
+activity#online.mquiz.Admin.Review_1
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:46:9-61
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:46:19-49
+activity#online.mquiz.Admin.ReviewBegin
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:47:9-64
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:47:19-52
+activity#online.mquiz.Admin.Students
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:48:9-61
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:48:19-49
+activity#online.mquiz.Admin.ViewProgress
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:49:9-65
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:49:19-53
+activity#online.mquiz.Admin.ViewStudent
+ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:50:9-64
+	android:name
+		ADDED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml:50:19-52
+uses-sdk
+INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Abhiprae\AndroidStudioProjects\mQuiz\app\src\main\AndroidManifest.xml

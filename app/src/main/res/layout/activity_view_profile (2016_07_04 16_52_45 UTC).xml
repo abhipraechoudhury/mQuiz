@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/add_student" />
+                <TextView
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="#f3f3f3"
+                    android:text="ID-54321"
+                    android:textSize="20dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="165dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#f3f3f3"
+                    android:text="First Name"
+                    android:textSize="20dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000" />
+
+                <TextView android:layout_width="165dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="#f3f3f3"
+                    android:text="Last Name"
+                    android:textSize="20dp"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f3f3f3"
+                android:textSize="20dp"
+                android:text="Mobile No. 007"
+
+                android:paddingLeft="5dp"
+                android:textColor="#000000" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f3f3f3"
+                android:textSize="20dp"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:text="Date of Birth : 01/01/2018" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#f3f3f3"
+                android:textSize="20dp"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:text="Email Id: blah@blahblah.com" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+</LinearLayout>

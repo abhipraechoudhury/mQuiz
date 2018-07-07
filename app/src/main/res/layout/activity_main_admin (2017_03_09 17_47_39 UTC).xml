@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="153dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:layout_marginTop="90dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Students"
+        android:id="@+id/students"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="ViewStudent"/>
+
+    <Button
+        android:textSize="18dp"
+        android:layout_width="250dp"
+
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:id="@+id/quiz"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Quiz"/>
+
+    <Button
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/Logout"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Logout"
+        />
+</LinearLayout>

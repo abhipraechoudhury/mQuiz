@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 1 of n"
+        android:textColor="#e6e6e6"
+        android:textSize="13pt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/quesNo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question:"
+        android:textSize="10pt"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/subheading" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Question"
+        android:textAlignment="center"
+        android:textColor="#f5f5f5"
+        android:id="@+id/question" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:tag="answer"
+        android:id="@+id/options">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option A"
+            android:id="@+id/optionA"
+            android:tag="A"
+            android:checked="false" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option B"
+            android:id="@+id/optionB"
+            android:tag="B"
+            android:checked="false" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option C"
+            android:id="@+id/optionC"
+            android:tag="C"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option D"
+            android:id="@+id/optionD"
+            android:tag="D"
+            android:checked="false" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option E"
+            android:id="@+id/optionE"
+            android:tag="E"
+            android:checked="false" />
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_gravity="end"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/next"
+        android:onClick="next"/>
+
+</LinearLayout>

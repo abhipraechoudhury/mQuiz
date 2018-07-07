@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/mquiz"
+            android:id="@+id/logo" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:id="@+id/progress"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:onClick="login"
+        android:id="@+id/login" />
+</LinearLayout>

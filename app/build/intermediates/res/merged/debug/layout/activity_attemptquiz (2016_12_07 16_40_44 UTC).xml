@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of the Quiz"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18pt"
+        android:textColor="#e6e6e6"
+        android:layout_marginTop="70dp"
+        android:id="@+id/name" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="DESCRIPTION"
+        android:textAlignment="center"
+        android:textSize="20pt"
+        android:id="@+id/description" />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="'n' questions"
+        android:textSize="12pt"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/noq" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:id="@+id/proceed"
+        android:onClick="proceed"/>
+</LinearLayout>

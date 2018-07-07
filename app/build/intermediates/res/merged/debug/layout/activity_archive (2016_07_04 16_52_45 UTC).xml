@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Archive"
+        android:textSize="20pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#e6e6e6"
+        android:id="@+id/heading" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/row1"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/col1"
+                android:layout_column="0"
+                android:text="Sr.No."
+                android:textSize="8pt"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/col2"
+                android:layout_column="1"
+                android:text="Name"
+                android:textSize="8pt"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/col3"
+                android:layout_column="2"
+                android:text="Date"
+                android:textSize="8pt"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/row2"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@id/col1"
+                android:layout_column="0"
+                android:textSize="8pt"
+                android:text="1."
+                android:layout_marginLeft="10dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:id="@id/col2"
+                android:textSize="8pt"
+                android:layout_column="1"
+                android:text="Fundamentals"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:id="@id/col3"
+                android:textSize="8pt"
+                android:layout_column="2"
+                android:text="24/06/16"
+                android:textAlignment="center"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

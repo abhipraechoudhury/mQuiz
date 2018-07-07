@@ -1,0 +1,21 @@
+
+Note:-1.Server communication should be done via a background process so that main ui should not freeze.
+      2. We should always check if network connectivity is availble
+      3. Use Asynchronus task to communicate with server.
+
+    1. HttpClient's object
+    2. HttpPost method's object (passing url)
+    3. Prepare Data Object ( form validation , read from values)
+    4. Convert Object into JSON object
+    5. JSON object => String json
+    6. StringEntity object using json
+    7. pass se in httppost method
+    8. httpost.execute
+    9. Httpresponse via inputstream = > string (json) ==> json ojbect ==>Dataobject
+
+
+
+    //Way1 of creating jsonobject from user object
+    //               jsonObject.accumulate("email", user.getEmail());
+    //               jsonObject.accumulate("password", user.getPassword());
+    //               jsonData = jsonObject.toString();

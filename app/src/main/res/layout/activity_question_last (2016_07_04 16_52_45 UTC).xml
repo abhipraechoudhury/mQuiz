@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/background"
+            android:fillViewport="false">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="30dp"
+
+                    android:textAlignment="center"
+                    android:hint="Question # of # :"
+                    android:paddingLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question: "
+                    android:textSize="20dp"
+                    android:layout_marginTop="40dp"
+
+                    />
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#f3f3f3"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:hint="TOPIC:"
+                    android:paddingLeft="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type: "
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+                <Spinner
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/QuizTypes"
+                    android:prompt="@string/Quiz_prompt"
+                    android:spinnerMode="dropdown" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Options:  "
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f3f3f3"
+                    android:hint="Optiona A"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f3f3f3"
+                    android:hint="Optiona B"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f3f3f3"
+                    android:hint="Optiona C"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f3f3f3"
+                    android:hint="Optiona D"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp" />
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#f3f3f3"
+                    android:hint="Optiona E"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Right Option(s):  "
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <CheckBox
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A"
+                        android:id="@+id/checkBoxA"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"/>
+                    <CheckBox
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B"
+                        android:id="@+id/checkBoxB"
+                        android:layout_marginRight="20dp"/>
+                    <CheckBox
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C"
+                        android:id="@+id/checkBoxC"
+                        android:layout_marginRight="20dp"/>
+                    <CheckBox
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="D"
+                        android:id="@+id/checkBoxD"
+                        android:layout_marginRight="20dp"/>
+                    <CheckBox
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E"
+                        android:id="@+id/checkBoxE" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explanation:  "
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+
+                    />
+                <EditText
+                    android:layout_width="325dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#f3f3f3"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:hint="Explanation:"
+                    android:paddingLeft="5dp"
+                    />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="REVIEW"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20dp"
+                    android:onClick="Review_1"
+                    />
+                <Button
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="SUBMIT"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="70dp"
+                    android:textSize="20dp"
+                    />
+</LinearLayout>
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+
